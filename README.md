@@ -22,7 +22,11 @@ https://github.com/HenkT28/pands-project.git
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 
-The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.[1] It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.[2] Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus".[3]
+The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.[1] 
+
+It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.[2] 
+
+Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus".[3]
 
 
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). 
@@ -52,14 +56,19 @@ The dataset contains a set of 150 records under five attributes - petal length, 
 The iris data set is widely used as a beginner's dataset for machine leaning purpose. Here are some lines of python code that definess how this works.
 
 from sklearn.datasets import load_iris
+
 iris=load_iris()
+
 iris
 
 This code gives:
 
 {'data': array([[5.1, 3.5, 1.4, 0.2],
+
                 [4.9, 3. , 1.4, 0.2],
+
                 [4.7, 3.2, 1.3, 0.2],
+
                 [4.6, 3.1, 1.5, 0.2],
 
 
@@ -83,9 +92,11 @@ For example:
 https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
 import seaborn as sns
+
 sns.set(style="ticks")
 
 df = sns.load_dataset("iris")
+
 sns.pairplot(df, hue="species")
 
 ### Prerequisites - how to run the code
