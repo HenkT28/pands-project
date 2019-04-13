@@ -22,10 +22,12 @@ https://github.com/HenkT28/pands-project.git
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 
-The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus".
+The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.[1] It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.[2] Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus".[3]
+
 
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). 
 Photo's Iris flowers of the three related species:
+
 1. https://en.wikipedia.org/wiki/File:Kosaciec_szczecinkowaty_Iris_setosa.jpg
 
 2. https://en.wikipedia.org/wiki/File:Iris_versicolor_3.jpg
@@ -36,14 +38,55 @@ Photo's Iris flowers of the three related species:
 Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. 
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. 
 
+https://en.wikipedia.org/wiki/Iris_flower_data_set#/media/File:Iris_dataset_scatterplot.svg
 
+https://en.wikipedia.org/wiki/Iris_flower_data_set#/media/File:Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg
 
-Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.
+Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
 
 
 ## Data Set
 
 The dataset contains a set of 150 records under five attributes - petal length, petal width, sepal length, sepal width and species.
+
+The iris data set is widely used as a beginner's dataset for machine leaning purpose. Here are some lines of python code that definess how this works.
+
+from sklearn.datasets import load_iris
+iris=load_iris()
+iris
+
+This code gives:
+
+{'data': array([[5.1, 3.5, 1.4, 0.2],
+                [4.9, 3. , 1.4, 0.2],
+                [4.7, 3.2, 1.3, 0.2],
+                [4.6, 3.1, 1.5, 0.2],
+
+
+### Python Packages used for analyzing this Iris Data Set
+
+[1]. Pandas/Numpy (also for reading in csv file):
+
+https://pandas.pydata.org/
+
+[2]. Matplotlib & Pyplot
+
+https://matplotlib.org/
+
+https://matplotlib.org/api/pyplot_api.html
+
+[3]. Seaborn
+
+https://seaborn.pydata.org/
+
+For example:
+https://seaborn.pydata.org/examples/scatterplot_matrix.html
+
+import seaborn as sns
+sns.set(style="ticks")
+
+df = sns.load_dataset("iris")
+sns.pairplot(df, hue="species")
 
 ### Prerequisites - how to run the code
 
