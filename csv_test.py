@@ -11,6 +11,10 @@ import pandas as pd
 # https://www.geeksforgeeks.org/different-ways-to-import-csv-file-in-pandas/
 
 # making data frame   
-df = pd.read_csv('iris_original.csv')   
+iris = pd.read_csv('iris_original.csv')   
     
-print(df.head())     
+# print(iris.head())     
+
+# https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
+
+print(iris.columns)
