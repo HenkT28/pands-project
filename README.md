@@ -22,7 +22,10 @@ https://github.com/HenkT28/pands-project.git
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 
-The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.[1] 
+The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper:
+
+* The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.[1] 
+
 
 It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.[2] 
 
@@ -46,6 +49,7 @@ Images\Iris_dataset_scatterplot.svg.png
 
 Images\Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg
 
+
 Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
 
 
@@ -53,24 +57,11 @@ Based on Fisher's linear discriminant model, this data set became a typical test
 
 The dataset contains a set of 150 records under five attributes - petal length, petal width, sepal length, sepal width and species.
 
-The iris data set is widely used as a beginner's dataset for machine leaning purpose. Here are some lines of python code that definess how this works.
+The iris data set is widely used as a beginner's dataset for machine leaning purpose. 
 
-from sklearn.datasets import load_iris
+Here are some lines of python code that definess how this works:
 
-iris=load_iris()
-
-iris
-
-This code gives:
-
-{'data': array([[5.1, 3.5, 1.4, 0.2],
-
-                [4.9, 3. , 1.4, 0.2],
-
-                [4.7, 3.2, 1.3, 0.2],
-
-                [4.6, 3.1, 1.5, 0.2],
-
+Images\Some lines how Python works.png
 
 ### Python Packages used for analyzing this Iris Data Set
 
