@@ -32,19 +32,19 @@ Two of the three species were collected in the Gaspé Peninsula "all from the sa
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). 
 Photo's Iris flowers of the three related species:
 
-1. https://en.wikipedia.org/wiki/File:Kosaciec_szczecinkowaty_Iris_setosa.jpg
+1. Images\Iris_setosa.jpg
 
-2. https://en.wikipedia.org/wiki/File:Iris_versicolor_3.jpg
+2. Images\Iris_versicolor.jpg
 
-3. https://en.wikipedia.org/wiki/File:Iris_virginica.jpg
+3. Images\Iris_virginica.jpg
 
 
 Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. 
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. 
 
-https://en.wikipedia.org/wiki/Iris_flower_data_set#/media/File:Iris_dataset_scatterplot.svg
+Images\Iris_dataset_scatterplot.svg.png
 
-https://en.wikipedia.org/wiki/Iris_flower_data_set#/media/File:Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg
+Images\Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg
 
 Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
 
