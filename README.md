@@ -2,9 +2,23 @@
 
 This readme contains background info, instructions, and research into the well-known Fisher’s Iris data set, for Programming and Scripting module (GMIT H.Dip Data Analytics - Academic Year 2019 - 2020).
 
+1. Research background information about the data set and write a summary about it.
+
+2. Keep a list of references you used in completing the project.
+
+3. Download the data set and write some Python code to investigate it.
+
+4. Summarise the data set by, for example, calculating the maximum, minimum and mean of each column of the data set. A Python script will quickly do this for you.
+
+5. Write a summary of your investigations.
+
+6. Include supporting tables and graphics as you deem necessary.
+
+
 Student: Henk Tjalsma
 
 GMIT email address: G00376321@gmit.ie
+
 
 ## Problem statement
 The project entails researching the data set, and then writing documentation and code in the Python programming language based on that research.
@@ -45,23 +59,46 @@ Photo's Iris flowers of the three related species:
 Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. 
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. 
 
-Images\Iris_dataset_scatterplot.svg.png
-
-Images\Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg
-
 
 Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
 
 
-## Data Set
+## What aspects of the Iris Data Set, make it so successful as an example teaching test data set?
 
-The dataset contains a set of 150 records under five attributes - petal length, petal width, sepal length, sepal width and species.
+The Iris dataset is deservedly widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
 
-The iris data set is widely used as a beginner's dataset for machine leaning purpose. 
+[1] Containing 150 observations, it is small but not trivial. The dataset contains records under five attributes - petal length, petal width, sepal length, sepal width and species.
 
-Here are some lines of python code that definess how this works:
+There are no null values in the data set.
+
+There are 50 observations of each species (setosa, versicolor, virginica).
+
+[2] The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
+
+[3] The data are real data, but apparently of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. Nevertheless, few people object to real data.
+
+[4] The data were used by the celebrated British statistician Ronald Fisher in 1936. The data were originally published by the statistically-minded botanist Edgar S. Anderson, but that earlier origin does not diminish the association.
+
+[5] Using a few famous datasets is one of the traditions we hand down, such as telling each new generation that Student worked for Guinness or that many famous statisticians fell out with each other. That may sound like inertia, but in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods.
+
+[6] Last, but not least, the Iris dataset can be enjoyably coupled with pictures of the flowers concerned, as from e.g. the useful Wikipedia entry on the dataset.
+
+Note:
+
+* Iris setosa, Iris versicolor and Iris virginica are three species (not varieties, as in some statistical accounts); their binominals should be presented in italic, as here; and Iris as genus name and the other names indicating particular species should begin with upper and lower case respectively.
+
+
+Here are some lines of python code that defines how this data set can be analyzed:
 
 Images\Some lines how Python works.png
+
+
+And some images of plotting the data:
+
+Images\Iris_dataset_scatterplot.svg.png
+
+Images\Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg
+
 
 ### Python Packages used for analyzing this Iris Data Set
 
@@ -138,6 +175,17 @@ python <script_name>.py
 
 ## Below what each script does
 
+1. Iris_Max_Value.py script:
+
+Used numpy library, and read the data set, iris.csv file, into an array. Then loaded the values of each of the columns in the array, and used max function numpy, to retrieve the maximum value, for each of the four columns.
+
+2. Iris_Min_Value.py script:
+
+Used numpy library, and read the data set, iris.csv file, into an array. Then loaded the values of each of the columns in the array, and used min function numpy library this time, to retrieve the minimum value, for each of the four columns.
+
+3. Iris_Mean_Value.py script:
+
+Used numpy library, and read the data set, iris.csv file, into an array. Then loaded the values of each of the columns in the array, and used mean function numpy, to get the mean value, for each of the four columns.
 
 ## Break down into end to end tests
 
@@ -215,6 +263,8 @@ https://github.com/.
 [7] GMIT. Quality assurance framework.
 
 https://www.gmit.ie/general/quality-assurance-framework.
+
+[8] Nick Cox - https://stats.stackexchange.com/a/74901
 
 
 
