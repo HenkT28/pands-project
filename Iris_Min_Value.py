@@ -29,6 +29,11 @@ min_thirdcolumn = np.min(my_data_set[:,2])
 # fourthcolumn = (my_data_set[:,3])
 min_fourthcolumn = np.min(my_data_set[:,3])
 
+# print("The output of 1st column is: ",firstcolumn)
+# print("The output of 2nd column is: ",secondcolumn)
+# print("The output of 3rd column is: ",thirdcolumn)
+# print("The output of 4th column is: ",fourthcolumn)
+
 print("The minimum value of 1st column is: ",min_firstcolumn)
 print("The minimum value of 2nd column is: ",min_secondcolumn)
 print("The minimum value of 3rd column is: ",min_thirdcolumn)

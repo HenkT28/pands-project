@@ -29,6 +29,11 @@ max_thirdcolumn = np.max(my_data_set[:,2])
 # fourthcolumn = (my_data_set[:,3])
 max_fourthcolumn = np.max(my_data_set[:,3])
 
+# print("The output of 1st column is: ",firstcolumn)
+# print("The output of 2nd column is: ",secondcolumn)
+# print("The output of 3rd column is: ",thirdcolumn)
+# print("The output of 4th column is: ",fourthcolumn)
+
 print("The maximum value of 1st column is: ",max_firstcolumn)
 print("The maximum value of 2nd column is: ",max_secondcolumn)
 print("The maximum value of 3rd column is: ",max_thirdcolumn)

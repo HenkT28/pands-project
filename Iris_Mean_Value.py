@@ -26,6 +26,11 @@ mean_thirdcolumn = np.mean(my_data_set[:,2])
 # fourthcolumn = (my_data_set[:,3])
 mean_fourthcolumn = np.mean(my_data_set[:,3])
 
+# print("The output of 1st column is: ",firstcolumn)
+# print("The output of 2nd column is: ",secondcolumn)
+# print("The output of 3rd column is: ",thirdcolumn)
+# print("The output of 4th column is: ",fourthcolumn)
+
 print("The mean of 1st column is: ",mean_firstcolumn)
 print("The mean of 2nd column is: ",mean_secondcolumn)
 print("The mean of 3rd column is: ",mean_thirdcolumn)
