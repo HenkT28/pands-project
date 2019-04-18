@@ -12,21 +12,21 @@ import numpy as np
 my_data_set = np.genfromtxt('iris.csv', delimiter=',')
 
 # All of the values in the 1st column of the array
-firstcolumn = (my_data_set[:,0]) 
+# firstcolumn = (my_data_set[:,0]) 
 # https://stackoverflow.com/questions/35503718/how-to-find-the-maximum-value-of-a-numpy-array-between-given-indicies
 # Used max function numpy 
 max_firstcolumn = np.max(my_data_set[:,0]) 
 
 # All of the values in the 2nd column of the array
-secondcolumn = (my_data_set[:,1])
+# secondcolumn = (my_data_set[:,1])
 max_secondcolumn = np.max(my_data_set[:,1])
 
 # All of the values in the 3rd column of the array
-thirdcolumn = (my_data_set[:,2])
+# thirdcolumn = (my_data_set[:,2])
 max_thirdcolumn = np.max(my_data_set[:,2])
 
 # All of the values in the 4th column of the array
-fourthcolumn = (my_data_set[:,3])
+# fourthcolumn = (my_data_set[:,3])
 max_fourthcolumn = np.max(my_data_set[:,3])
 
 print("The maximum value of 1st column is: ",max_firstcolumn)
