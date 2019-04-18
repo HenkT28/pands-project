@@ -189,15 +189,15 @@ python <script_name>.py
 
 1. Iris_Max_Value.py script:
 
-Used numpy library, and read the data set, iris.csv file, into an array. Then loaded the values of each of the columns in the array, and used max function numpy, to retrieve the maximum value, for each of the four columns.
+Used numpy library, and read the data set, iris.csv file, into an array. And used max function numpy, to retrieve the maximum value, for each of the four columns.
 
 2. Iris_Min_Value.py script:
 
-Used numpy library, and read the data set, iris.csv file, into an array. Then loaded the values of each of the columns in the array, and used min function numpy library this time, to retrieve the minimum value, for each of the four columns.
+Used numpy library, and read the data set, iris.csv file, into an array. Then used min function this time, to retrieve the minimum value, for each of the four columns.
 
 3. Iris_Mean_Value.py script:
 
-Used numpy library, and read the data set, iris.csv file, into an array. Then loaded the values of each of the columns in the array, and used mean function numpy, to get the mean value, for each of the four columns.
+Used numpy library, and read the data set, iris.csv file, and used mean function numpy, to get the mean value, for each of the four columns.
 
 ## Break down into end to end tests
 
