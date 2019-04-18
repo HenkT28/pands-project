@@ -31,10 +31,12 @@ The project entails researching the data set, and then writing documentation and
 
 https://github.com/HenkT28/pands-project.git
 
+
 ## Fisher’s Iris data set
 
-https://en.wikipedia.org/wiki/Iris_flower_data_set
+Below is taken from the wikipedia page, Iris Flower Data Set: 
 
+https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper:
 
@@ -47,6 +49,7 @@ Two of the three species were collected in the Gaspé Peninsula "all from the sa
 
 
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). 
+
 Photo's Iris flowers of the three related species:
 
 1. Images\Iris_setosa.jpg
@@ -56,32 +59,47 @@ Photo's Iris flowers of the three related species:
 3. Images\Iris_virginica.jpg
 
 
-Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. 
-Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. 
+The dataset is a record of feature measurements (petal lengths and widths, sepal lengths and widths) of the different species of Iris flowers.[9]
+
+There are five columns in this dataset with the following variable names: Sepal Length, Sepal Width, Petal Length, Petal Width, and species. The first four variables are real measurements made in centimeters. 
+
+But what are these measurements? And why are these parts of the flower so important? It turns out that this dataset was used to try to make a computer predict which specimens (in rows) belonged to each species of Iris flower. This sort of problem was up in the air in the time before genetics was used to classify animals. At the time, scientists depended on what these species looked like in order to make the distinctions.
+
+What are exactly the petals and the sepals of a flower? See below.
+
+Images\Parts of the flower.png
+
+Here’s a rough and simple-worded way of differentiating them:
+
+* Petals — the often vibrantly colored fans that cover the inner part of the flower.
+
+* Sepals — the often green fan base that serves as a cup for the flower to sit on.
 
 
-Based on Fisher's linear discriminant model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
+Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. Based on the model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
 
 
 ## What aspects of the Iris Data Set, make it so successful as an example teaching test data set?
 
 The Iris dataset is deservedly widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
 
-[1] Containing 150 observations, it is small but not trivial. The dataset contains records under five attributes - petal length, petal width, sepal length, sepal width and species.
+[a] Containing 150 observations, it is small but not trivial. The dataset contains records under five attributes - petal length, petal width, sepal length, sepal width and species.
 
 There are no null values in the data set.
 
 There are 50 observations of each species (setosa, versicolor, virginica).
 
-[2] The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
+[b] The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
 
-[3] The data are real data, but apparently of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. Nevertheless, few people object to real data.
+[c] The data are real data, but apparently of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. Nevertheless, few people object to real data.
 
-[4] The data were used by the celebrated British statistician Ronald Fisher in 1936. The data were originally published by the statistically-minded botanist Edgar S. Anderson, but that earlier origin does not diminish the association.
+[d] The data were used by the celebrated British statistician Ronald Fisher in 1936. The data were originally published by the statistically-minded botanist Edgar S. Anderson, but that earlier origin does not diminish the association.
 
-[5] Using a few famous datasets is one of the traditions we hand down, such as telling each new generation that Student worked for Guinness or that many famous statisticians fell out with each other. That may sound like inertia, but in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods.
+[e] Using a few famous datasets is one of the traditions we hand down, such as telling each new generation that Student worked for Guinness or that many famous statisticians fell out with each other. That may sound like inertia, but in comparing methods old and new, and in evaluating any method, it is often considered helpful to try them out on known datasets, thus maintaining some continuity in how we assess methods.
 
-[6] Last, but not least, the Iris dataset can be enjoyably coupled with pictures of the flowers concerned, as from e.g. the useful Wikipedia entry on the dataset.
+[f] Last, but not least, the Iris dataset can be enjoyably coupled with pictures of the flowers concerned, as from e.g. the useful Wikipedia entry on the dataset.
+
+https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 Note:
 
@@ -93,7 +111,7 @@ Here are some lines of python code that defines how this data set can be analyze
 Images\Some lines how Python works.png
 
 
-And some images of plotting the data:
+And some images of plotting the three species, of Iris, against each other:
 
 Images\Iris_dataset_scatterplot.svg.png
 
@@ -119,13 +137,6 @@ https://seaborn.pydata.org/
 For example:
 https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
-import seaborn as sns
-
-sns.set(style="ticks")
-
-df = sns.load_dataset("iris")
-
-sns.pairplot(df, hue="species")
 
 ### Prerequisites - how to run the code
 
@@ -147,6 +158,7 @@ Anaconda3 includes Python 3.7.
 2. Also install Cmder software for running the python scripts from command line:
 
 https://cmder.net/
+
 
 ### Running the python scripts.
 
@@ -265,6 +277,8 @@ https://github.com/.
 https://www.gmit.ie/general/quality-assurance-framework.
 
 [8] Nick Cox - https://stats.stackexchange.com/a/74901
+
+[9] Data SalaryMan - https://medium.com/@livingwithdata/exploring-the-iris-dataset-260cc1e5cdf7
 
 
 
