@@ -166,7 +166,7 @@ I read the data set, iris.csv file into an array and used mean function numpy, t
 
 First of all I'm reading Iris Dataset in Pandas Dataframe, then created 3 DataFrame for each Species and used describe function, to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values.
 
-![Describe](https://github.com/HenkT28/pands-project/blob/master/Images/Describe.png
+![Describe](https://github.com/HenkT28/pands-project/blob/master/Images/Describe.png)
 
 For numeric data, as in this case, the result’s index will include count, mean, std, min, max as well as lower, 50 and upper percentiles. By default the lower percentile is 25 and the upper percentile is 75. The 50 percentile is the same as the median.
 
