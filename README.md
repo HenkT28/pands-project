@@ -133,18 +133,32 @@ https://seaborn.pydata.org/
 For example:
 https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
+[4]. Sys
+
+https://docs.python.org/3/library/sys.html
+
+[5] Warnings
+
 
 ## Below what each script does
 
-1. Iris_Max_Value.py:
+1. Iris_Data_Set_Content.py:
+
+First of all I'm reading Iris Dataset in Pandas Dataframe, and although print(data.head(30)) provides a glimpse how the first 30 rows look like, they all refer to the Iris Setosa.
+
+So this script shows 3 Rows With Distinct Values in Specific Column "species", for Iris Setosa, Versicolor, and Virginica.
+
+![Iris_Data_Set_Content script](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_Data_Set_Content script.jpg)
+
+2. Iris_Max_Value.py:
 
 Read the data set, iris.csv file, into an array using numpy library. Then used max function numpy, to retrieve the maximum value for each of the four columns.
 
-2. Iris_Min_Value.py:
+3. Iris_Min_Value.py:
 
 Used numpy library, and read the Iris data set, iris.csv into an array. This time I used min function, to retrieve the minimum value for each of the four columns.
 
-3. Iris_Mean_Value.py:
+4. Iris_Mean_Value.py:
 
 I read the data set, iris.csv file into an array and used mean function numpy, to get the mean value for each of the four columns.
 
@@ -279,6 +293,12 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [8] Nick Cox - https://stats.stackexchange.com/a/74901
 
 [9] Data SalaryMan - https://medium.com/@livingwithdata/exploring-the-iris-dataset-260cc1e5cdf7
+
+[10] https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+
+[11] https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+
+[12] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 
 
