@@ -52,11 +52,11 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 Photo's Iris flowers of the three related species:
 
-1. ![Iris Setosa](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_setosa.jpg)
+![Iris Setosa](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_setosa.jpg)
 
-2. ![Iris Versicolor](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_versicolor.jpg)
+![Iris Versicolor](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_versicolor.jpg)
 
-3. ![Iris Virginica](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_virginica.jpg)
+![Iris Virginica](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_virginica.jpg)
 
 
 The dataset is a record of feature measurements (petal lengths and widths, sepal lengths and widths) of the different species of Iris flowers.[9]
