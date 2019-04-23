@@ -162,6 +162,15 @@ Used numpy library, and read the Iris data set, iris.csv into an array. This tim
 
 I read the data set, iris.csv file into an array and used mean function numpy, to get the mean value for each of the four columns.
 
+5. Iris_Data_Set_Describe.py:
+
+First of all I'm reading Iris Dataset in Pandas Dataframe, then created 3 DataFrame for each Species and used describe function, to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values.
+
+![Describe the 3 different species of Iris](https://github.com/HenkT28/pands-project/blob/master/Images/Describe.png
+
+For numeric data, as in this case, the result’s index will include count, mean, std, min, max as well as lower, 50 and upper percentiles. By default the lower percentile is 25 and the upper percentile is 75. The 50 percentile is the same as the median.
+
+The percentiles to include in the output. All should fall between 0 and 1. The default is [.25, .5, .75], which returns the 25th, 50th, and 75th percentiles.
 
 ## Summary of investigations
 

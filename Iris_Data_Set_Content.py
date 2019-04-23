@@ -5,14 +5,12 @@
 # https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 # Importing Package 
-import sys
 import numpy
 import pandas
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-import warnings
 
 # Reading Iris Dataset in Pandas Dataframe
 data = pandas.read_csv("iris_original.csv")
