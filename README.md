@@ -52,11 +52,11 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 Photo's Iris flowers of the three related species:
 
-1. https://github.com/HenkT28/pands-project/blob/master/Images/Iris_setosa.jpg
+1. ![Iris Setosa](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_setosa.jpg)
 
-2. https://github.com/HenkT28/pands-project/blob/master/Images/Iris_versicolor.jpg
+2. ![Iris Versicolor](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_versicolor.jpg)
 
-3. https://github.com/HenkT28/pands-project/blob/master/Images/Iris_virginica.jpg
+3. ![Iris Virginica](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_virginica.jpg)
 
 
 The dataset is a record of feature measurements (petal lengths and widths, sepal lengths and widths) of the different species of Iris flowers.[9]
@@ -67,7 +67,7 @@ But what are these measurements? And why are these parts of the flower so import
 
 What are exactly the petals and the sepals of a flower? See below.
 
-https://github.com/HenkT28/pands-project/blob/master/Images/Parts_of_the_flower.png
+![Parts of the Flower](https://github.com/HenkT28/pands-project/blob/master/Images/Parts_of_the_flower.png)
 
 Here’s a rough and simple-worded way of differentiating them:
 
@@ -108,15 +108,15 @@ Note:
 
 Here are some lines of python code that defines how this data set can be analyzed:
 
-https://github.com/HenkT28/pands-project/blob/master/Images/Some_lines_how_Python_works.png
+![Some lines showing how Python can be used](https://github.com/HenkT28/pands-project/blob/master/Images/Some_lines_how_Python_works.png)
 
 
 And some images of plotting the three species, of Iris, against each other:
 
-https://github.com/HenkT28/pands-project/blob/master/Images/Iris_dataset_scatterplot.svg.png
+![Iris Dataset Scatterplot](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_dataset_scatterplot.svg.png)
 
 
-https://github.com/HenkT28/pands-project/blob/master/Images/Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg
+![Spectramap Biplot Iris Flower Data Set](https://github.com/HenkT28/pands-project/blob/master/Images/Spectramap_Biplot_Iris_Flower_Data_Set_FULL.jpg)
 
 
 ### Python Packages used for analyzing this Iris Data Set
