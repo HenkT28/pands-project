@@ -148,7 +148,7 @@ First of all I'm reading Iris Dataset in Pandas Dataframe, and although print(da
 
 So this script shows 3 Rows With Distinct Values in Specific Column "species", for Iris Setosa, Versicolor, and Virginica.
 
-![Iris_Data_Set_Content script](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_Data_Set_Content_script.jpg)
+![Iris_Data_Set_Content_script](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_Data_Set_Content_script.jpg)
 
 2. Iris_Max_Value.py:
 
