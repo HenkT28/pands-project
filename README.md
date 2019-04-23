@@ -32,7 +32,7 @@ The project entails researching the data set, and then writing documentation and
 https://github.com/HenkT28/pands-project.git
 
 
-## Fisher’s Iris data set
+## Background - Fisher’s Iris data set
 
 Below is taken from the wikipedia page, Iris Flower Data Set: 
 
@@ -134,6 +134,24 @@ For example:
 https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
 
+## Below what each script does
+
+1. Iris_Max_Value.py script:
+
+Used numpy library, and read the data set, iris.csv file, into an array. And used max function numpy, to retrieve the maximum value, for each of the four columns.
+
+2. Iris_Min_Value.py script:
+
+Used numpy library, and read the data set, iris.csv file, into an array. Then used min function this time, to retrieve the minimum value, for each of the four columns.
+
+3. Iris_Mean_Value.py script:
+
+Used numpy library, and read the data set, iris.csv file, and used mean function numpy, to get the mean value, for each of the four columns.
+
+
+## Summary of investigations
+
+
 ### Prerequisites - how to run the code
 
 1. Make sure you have Python installed, or Anaconda: 
@@ -180,20 +198,6 @@ For example, from cmder go to the directory containing the .py scripts, by using
 
 python <script_name>.py
 
-
-## Below what each script does
-
-1. Iris_Max_Value.py script:
-
-Used numpy library, and read the data set, iris.csv file, into an array. And used max function numpy, to retrieve the maximum value, for each of the four columns.
-
-2. Iris_Min_Value.py script:
-
-Used numpy library, and read the data set, iris.csv file, into an array. Then used min function this time, to retrieve the minimum value, for each of the four columns.
-
-3. Iris_Mean_Value.py script:
-
-Used numpy library, and read the data set, iris.csv file, and used mean function numpy, to get the mean value, for each of the four columns.
 
 ## Break down into end to end tests
 
