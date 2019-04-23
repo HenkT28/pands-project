@@ -106,7 +106,7 @@ Here are some lines of python code that defines how this data set can be analyze
 ![Some lines showing how Python can be used](https://github.com/HenkT28/pands-project/blob/master/Images/Some_lines_how_Python_works.png)
 
 
-And some images of plotting the three species, of Iris, against each other:
+And some random examples of plotting the three species, of Iris, against each other:
 
 ![Iris Dataset Scatterplot](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_dataset_scatterplot.svg.png)
 
@@ -136,17 +136,17 @@ https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
 ## Below what each script does
 
-1. Iris_Max_Value.py script:
+1. Iris_Max_Value.py:
 
-Used numpy library, and read the data set, iris.csv file, into an array. And used max function numpy, to retrieve the maximum value, for each of the four columns.
+Read the data set, iris.csv file, into an array using numpy library. Then used max function numpy, to retrieve the maximum value for each of the four columns.
 
-2. Iris_Min_Value.py script:
+2. Iris_Min_Value.py:
 
-Used numpy library, and read the data set, iris.csv file, into an array. Then used min function this time, to retrieve the minimum value, for each of the four columns.
+Used numpy library, and read the Iris data set, iris.csv into an array. This time I used min function, to retrieve the minimum value for each of the four columns.
 
-3. Iris_Mean_Value.py script:
+3. Iris_Mean_Value.py:
 
-Used numpy library, and read the data set, iris.csv file, and used mean function numpy, to get the mean value, for each of the four columns.
+I read the data set, iris.csv file into an array and used mean function numpy, to get the mean value for each of the four columns.
 
 
 ## Summary of investigations
