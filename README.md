@@ -202,15 +202,24 @@ Imported libaries, and used Seaborn for creating Pairs Plot. The pairs plot make
 
 ![pairwise](https://github.com/HenkT28/pands-project/blob/master/Images/pairwise.png)
 
+10. 3D_Scatter_Plot.py:
+
+Imported libraries such as mpl_toolkits.mplot3d, and matplotlib.pyplot to see how a 3D graph shows the info.
+
+It provides info on "sepal_length", in combination with "petal_length", and "petal_width".
+
+![3D](https://github.com/HenkT28/pands-project/blob/master/Images/3D.png)
+
+
 ## Summary of Investigations and Conclusions
 
-The start of each of the Python scripts lists the libraries I used and imported to generate some meaningful output, and graphs.
+The start of each of the Python scripts lists the libraries I used and imported to generate some meaningful output, and graphics.
 
 The first step to any data science project is to import your data. I used the read_csv() function from pandas to import this data. Loading CSV files specifically with pandas has become standard practice for working data scientists today.
 
-Many people have done extensive research into the Iris Data set, so I used a number of approaches, and experiments, and on top various libraries to create useful scripts, and get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
+As so many people have done extensive research into the Iris Data set, I used a number of different approaches, different experiments, and on top various libraries to create useful scripts, and get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
 
-It's relevant to calculate the max, min and mean of each column, but just based on the output of these scripts it's hard to draw any conclusions. It's important to understand what are the major differences between these species of Iris especially where it concerns measurements of their petals and sepals. And to show such differences visually is key.
+It's hightly relevant to calculate the max, min and mean of each column, but just based on the output of these scripts, it's hard to draw any conclusions. It's important to understand what are the major differences between these species of Iris especially where it concerns measurements of their petals and sepals. And to show such differences visually is key.
 
 So not only did I use histograms, also scatter plots. For a defintion of scatter plot, please go here:
 
@@ -225,6 +234,14 @@ A scatter plot (also called a scatterplot, scatter graph, scatter chart, scatter
 
 The count has the 4 features and 150 rows in total. From the results from Mean function it is clear, that sepal is larger than petal.
 
+Running print(data.describe()) produces below summary:
+
+![summary](https://github.com/HenkT28/pands-project/blob/master/Images/summary.png)
+
+So this gives you some understanding on the Mean, Max and Min of the entire Iris data set.
+
+One observation is that Sepal length ranges from 4.3cm to 7.9cm, while Petal length differs with a range of 1.0cm to 6.9cm, so much wider scope.
+
 [2] Iris.Histogram & Petal_Sepal_Dist scripts:
 
 From both you can draw very much the same conclusions - and while one is a histogram, the other is a scatter plot - they immediately provide some differences:
@@ -238,13 +255,17 @@ From both you can draw very much the same conclusions - and while one is a histo
 
 [3] Scatter_Plot script using Seaborn.
 
-From this scattered plot, we can distinctly distinguish Iris-setosa, but Iris-versicolor and Iris-verginica can't be distinguished based on thier sepal width and sepal length. Thus to distinguish between versicolor and verginica, we have to analyse some other features. Here, we can use pairwise plotting.
+From this scattered plot, we can distinctly distinguish Setosa, but Iris Versicolor and Virginica can't be separated based on their sepal width and sepal length. Thus to distinguish between versicolor and virginica, we have to analyse some other features. 
 
-[4] Pairwise_Plot:
+There is considerable overlap between Iris Virginica and Iris Versicolor suggsting a high correlation and predictable relationship. To differentiate, here, we can use pairwise plotting.
+
+[4] Pairwise_Plot script:
 
 From the pairwise plots, we see that Iris-setosa is distinguishable in all aspects. As for differentiating between Iris-versicolor and Irish-verginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of versicolor is smaller than that of verginica.
 
+[5] 3D_Scatter_Plot script:
 
+This script will give you a glance of the Iris data set showing in 3D format. As you can see, there is high concentration of samples where Sepal length is low, and Petal length is low as well. 
 
 ### Prerequisites - how to run the code
 
@@ -395,6 +416,10 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [19] https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 [20] https://etav.github.io/python/pairs_plot_python_seaborn.html
+
+[21] https://guides.github.com/features/mastering-markdown
+
+[22] https://matplotlib.org/users/pyplot_tutorial.html
 
 
 
