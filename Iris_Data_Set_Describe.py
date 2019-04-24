@@ -25,7 +25,9 @@ setosa=data[data['species']=='setosa']
 versicolor =data[data['species']=='versicolor']
 virginica =data[data['species']=='virginica']
 
-print(setosa.describe())
-print(versicolor.describe())
-print(virginica.describe())
+# print(setosa.describe())
+# print(versicolor.describe())
+# print(virginica.describe())
+
+print(data.describe())
 

@@ -166,11 +166,21 @@ I read the data set, iris.csv file into an array and used mean function numpy, t
 
 First of all I'm reading Iris Dataset in Pandas Dataframe, then created 3 DataFrame for each Species and used describe function, to generate descriptive statistics that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding NaN values.
 
+The first section describes "Setosa", the second part "Versicolor", and the third section "Virginica".
+
 ![Describe](https://github.com/HenkT28/pands-project/blob/master/Images/Describe.png)
 
 For numeric data, as in this case, the result’s index will include count, mean, std, min, max as well as lower, 50 and upper percentiles. By default the lower percentile is 25 and the upper percentile is 75. The 50 percentile is the same as the median.
 
 The percentiles to include in the output. All should fall between 0 and 1. The default is [.25, .5, .75], which returns the 25th, 50th, and 75th percentiles.
+
+Running print(data.describe()) produces below summary:
+
+![summary](https://github.com/HenkT28/pands-project/blob/master/Images/summary.png)
+
+The count has the 4 features and 150 rows in total.
+
+From the results from Mean function it is clear, that sepal is larger than petal.
 
 ## Summary of investigations
 
