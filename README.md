@@ -170,6 +170,8 @@ For numeric data, as in this case, the result’s index will include count, mean
 
 The percentiles to include in the output. All should fall between 0 and 1. The default is [.25, .5, .75], which returns the 25th, 50th, and 75th percentiles.
 
+These are some parametric and non parametric statistics of our dataset. Parametric: mean, std, min, max, count. Non Parametric: 25%, 50%, 75%.
+
 Running print(data.describe()) produces below summary:
 
 ![summary](https://github.com/HenkT28/pands-project/blob/master/Images/summary.png)
@@ -193,6 +195,12 @@ Reading Iris Dataset in Pandas Dataframe, then using matplotlib.pyplot library t
 Importing several packages, pandas, matplotlib.pyplot and seaborn, loading data set, and configuring scatter plot for Sepal Length and Sepal Width.
 
 ![scatter](https://github.com/HenkT28/pands-project/blob/master/Images/scatter.png)
+
+9. Pairwise_Plot.py:
+
+Imported libaries, and used Seaborn for creating Pairs Plot. The pairs plot makes high-level scatter plots to capture relationships between multiple variables within a dataframe. Used Seaborn, the statistical visualization library built on matplotlib.
+
+![pairwise](https://github.com/HenkT28/pands-project/blob/master/Images/pairwise.png)
 
 ## Summary of Investigations and Conclusions
 
@@ -231,6 +239,10 @@ From both you can draw very much the same conclusions - and while one is a histo
 [3] Scatter_Plot script using Seaborn.
 
 From this scattered plot, we can distinctly distinguish Iris-setosa, but Iris-versicolor and Iris-verginica can't be distinguished based on thier sepal width and sepal length. Thus to distinguish between versicolor and verginica, we have to analyse some other features. Here, we can use pairwise plotting.
+
+[4] Pairwise_Plot:
+
+From the pairwise plots, we see that Iris-setosa is distinguishable in all aspects. As for differentiating between Iris-versicolor and Irish-verginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of versicolor is smaller than that of verginica.
 
 
 
@@ -381,6 +393,8 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [18] https://en.wikipedia.org/wiki/Scatter_plot
 
 [19] https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+[20] https://etav.github.io/python/pairs_plot_python_seaborn.html
 
 
 
