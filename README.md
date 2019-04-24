@@ -183,6 +183,11 @@ The scikit-learn library comes with a few small standard datasets that do not re
 
 ![Histogram](https://github.com/HenkT28/pands-project/blob/master/Images/Histogram.png)
 
+7. Petal_Sepal_dist.py:
+
+Reading Iris Dataset in Pandas Dataframe, then using matplotlib.pyplot library to create Scatter Plot, for all 3 species showing the petal and sepal distibution.
+
+![petal_sepal_dist](https://github.com/HenkT28/pands-project/blob/master/Images/petal_sepal_dist.png)
 
 ## Summary of investigations
 
@@ -200,14 +205,16 @@ It's relevant to calculate the max, min and mean of each column, but just based 
 
 The count has the 4 features and 150 rows in total. From the results from Mean function it is clear, that sepal is larger than petal.
 
-[2] Iris.Histogram script:
+[2] Iris.Histogram & Petal_Sepal_Dist scripts:
 
-The is an interesting graph, and shows immediately some crucial differences:
+From both you can draw very much the same conclusions - and while one is a histogram, the other is a scatter plot - they immediately provide some differences:
 * The feature "Petal width" can distinguish the targets better that other features. Also to some great degree, the Petal lenght is unique for each of the 3 species.
 
 * Virginia has the longest Sepal length, Petal length and Petal width.
 
-* Setosa however has the longest Sepal width. Also Setosa has the smallest Petal width and length, compared to both Versicolor and Virginica.
+* Setosa however has the longest Sepal width. 
+
+* Also Setosa has the smallest Petal width and length, compared to both Versicolor and Virginica.
 
 
 ### Prerequisites - how to run the code
