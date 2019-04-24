@@ -189,6 +189,12 @@ Reading Iris Dataset in Pandas Dataframe, then using matplotlib.pyplot library t
 
 ![petal_sepal_dist](https://github.com/HenkT28/pands-project/blob/master/Images/petal_sepal_dist.png)
 
+8. Scatter_Plot.py:
+
+Importing several packages, pandas, matplotlib.pyplot and seaborn, loading data set, and configuring scatter plot for Sepal Length and Sepal Width.
+
+![scatter](https://github.com/HenkT28/pands-project/blob/master/Images/scatter.png)
+
 ## Summary of investigations
 
 The start of each of the Python scripts lists the libraries I used and imported to generate some meaningful output, and graphs.
@@ -356,6 +362,10 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [14] https://stackoverflow.com/a/45721331
 
 [15] https://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
+
+[16] https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
+
+[17] https://github.com/kaggle/docker-python
 
 
 
