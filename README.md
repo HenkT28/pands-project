@@ -175,9 +175,14 @@ Running print(data.describe()) produces below summary:
 
 ![summary](https://github.com/HenkT28/pands-project/blob/master/Images/summary.png)
 
-The count has the 4 features and 150 rows in total.
+6. Iris.Histogram.py:
 
-From the results from Mean function it is clear, that sepal is larger than petal.
+This provides 4 histograms of iris dataset features using matplotlib & sklearn.
+
+The scikit-learn library comes with a few small standard datasets that do not require to download any file from some external website.
+
+![Histogram](https://github.com/HenkT28/pands-project/blob/master/Images/Histogram.png)
+
 
 ## Summary of investigations
 
@@ -190,6 +195,19 @@ Many people have done extensive research into the Iris Data set, so I used a num
 It's relevant to calculate the max, min and mean of each column, but just based on the output of these scripts it's hard to draw any conclusions. It's important to understand what are the major differences between these species of Iris especially where it concerns measurements of their petals and sepals.
 
 [Analysis and Conclusions]
+
+[1] Based on Iris_Data_Set_Describe script:
+
+The count has the 4 features and 150 rows in total. From the results from Mean function it is clear, that sepal is larger than petal.
+
+[2] Iris.Histogram script:
+
+The is an interesting graph, and shows immediately some crucial differences:
+* Virginia has the longest Sepal length, Petal length and Petal width.
+
+* Setosa however has the longest Sepal width. 
+
+* Also Setosa has the smallest Petal width compared to both Versicolor and Virginica.
 
 
 ### Prerequisites - how to run the code
