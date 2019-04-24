@@ -1,6 +1,8 @@
 # Henk Tjalsma, 2019
 # Iris Data Set - plotting iris data set
 
+# Histogram of the ‘targets’ with respect to each feature of the dataset.
+
 # https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 # https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 # https://stackoverflow.com/a/45721331
