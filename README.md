@@ -133,12 +133,9 @@ https://seaborn.pydata.org/
 For example:
 https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
-[4]. Sys
+[4]. Sklearn
 
-https://docs.python.org/3/library/sys.html
-
-[5] Warnings
-
+https://scikit-learn.org/
 
 ## Below what each script does
 
@@ -184,7 +181,16 @@ From the results from Mean function it is clear, that sepal is larger than petal
 
 ## Summary of investigations
 
-Analysis and Conclusions
+The start of each of the Python scripts lists the libraries I used and imported to generate some meaningful output, and graphs.
+
+The first step to any data science project is to import your data. I used the read_csv() function from pandas to import this data. Loading CSV files specifically with pandas has become standard practice for working data scientists today.
+
+Many people have done extensive research into the Iris Data set, so I used a number of approaches and different libraries to create useful scripts, and get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
+
+It's relevant to calculate the max, min and mean of each column, but just based on the output of these scripts it's hard to draw any conclusions. It's important to understand what are the major differences between these species of Iris especially where it concerns measurements of their petals and sepals.
+
+[Analysis and Conclusions]
+
 
 ### Prerequisites - how to run the code
 
@@ -319,6 +325,8 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [11] https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
 
 [12] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+
+[13] https://www.datacamp.com/community/tutorials/pandas-read-csv
 
 
 
