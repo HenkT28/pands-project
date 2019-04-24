@@ -136,6 +136,13 @@ https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
 https://scikit-learn.org/
 
+[5]. mpl_toolkits
+
+https://matplotlib.org/mpl_toolkits/index.html
+
+mpl_toolkits.mplot3d provides some basic 3D plotting (scatter, surf, line, mesh) tools. Not the fastest or most feature complete 3D library out there, but it ships with Matplotlib and thus may be a lighter weight solution for some use cases.
+
+
 ## Below what each script does
 
 1. Iris_Data_Set_Content.py:
@@ -261,7 +268,7 @@ There is considerable overlap between Iris Virginica and Iris Versicolor suggsti
 
 [4] Pairwise_Plot script:
 
-From the pairwise plots, we see that Iris-setosa is distinguishable in all aspects. As for differentiating between Iris-versicolor and Irish-verginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of versicolor is smaller than that of verginica.
+From the pairwise plots, we see that Iris-setosa is distinguishable in all aspects. As for differentiating between Iris-versicolor and Irish-verginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of versicolor is smaller than that of virginica.
 
 [5] 3D_Scatter_Plot script:
 
