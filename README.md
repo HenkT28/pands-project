@@ -36,7 +36,7 @@ https://github.com/HenkT28/pands-project.git
 
 Below is taken from the wikipedia page, Iris Flower Data Set: 
 
-https://en.wikipedia.org/wiki/Iris_flower_data_set
+https://en.wikipedia.org/wiki/Iris_flower_data_set [19]
 
 The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper:
 
@@ -94,7 +94,6 @@ There are 50 observations of each species (setosa, versicolor, virginica).
 
 [f] Last, but not least, the Iris dataset can be enjoyably coupled with pictures of the flowers concerned, as from e.g. the useful Wikipedia entry on the dataset.
 
-https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 Note:
 
@@ -195,15 +194,22 @@ Importing several packages, pandas, matplotlib.pyplot and seaborn, loading data 
 
 ![scatter](https://github.com/HenkT28/pands-project/blob/master/Images/scatter.png)
 
-## Summary of investigations
+## Summary of Investigations and Conclusions
 
 The start of each of the Python scripts lists the libraries I used and imported to generate some meaningful output, and graphs.
 
 The first step to any data science project is to import your data. I used the read_csv() function from pandas to import this data. Loading CSV files specifically with pandas has become standard practice for working data scientists today.
 
-Many people have done extensive research into the Iris Data set, so I used a number of approaches and different libraries to create useful scripts, and get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
+Many people have done extensive research into the Iris Data set, so I used a number of approaches, and experiments, and on top various libraries to create useful scripts, and get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
 
-It's relevant to calculate the max, min and mean of each column, but just based on the output of these scripts it's hard to draw any conclusions. It's important to understand what are the major differences between these species of Iris especially where it concerns measurements of their petals and sepals.
+It's relevant to calculate the max, min and mean of each column, but just based on the output of these scripts it's hard to draw any conclusions. It's important to understand what are the major differences between these species of Iris especially where it concerns measurements of their petals and sepals. And to show such differences visually is key.
+
+So not only did I use histograms, also scatter plots. For a defintion of scatter plot, please go here:
+
+[*] https://en.wikipedia.org/wiki/Scatter_plot [18]
+
+A scatter plot (also called a scatterplot, scatter graph, scatter chart, scattergram, or scatter diagram) is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. A scatter plot can suggest various kinds of correlations between variables with a certain confidence interval. Correlations may be positive (rising), negative (falling), or null (uncorrelated). If the pattern of dots slopes from lower left to upper right, it indicates a positive correlation between the variables being studied. If the pattern of dots slopes from upper left to lower right, it indicates a negative correlation. A line of best fit (alternatively called 'trendline') can be drawn in order to study the relationship between the variables.
+
 
 [Analysis and Conclusions]
 
@@ -221,6 +227,11 @@ From both you can draw very much the same conclusions - and while one is a histo
 * Setosa however has the longest Sepal width. 
 
 * Also Setosa has the smallest Petal width and length, compared to both Versicolor and Virginica.
+
+[3] Scatter_Plot script using Seaborn.
+
+From this scattered plot, we can distinctly distinguish Iris-setosa, but Iris-versicolor and Iris-verginica can't be distinguished based on thier sepal width and sepal length. Thus to distinguish between versicolor and verginica, we have to analyse some other features. Here, we can use pairwise plotting.
+
 
 
 ### Prerequisites - how to run the code
@@ -366,6 +377,10 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [16] https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
 
 [17] https://github.com/kaggle/docker-python
+
+[18] https://en.wikipedia.org/wiki/Scatter_plot
+
+[19] https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 
 
