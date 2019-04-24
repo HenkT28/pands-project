@@ -203,11 +203,11 @@ The count has the 4 features and 150 rows in total. From the results from Mean f
 [2] Iris.Histogram script:
 
 The is an interesting graph, and shows immediately some crucial differences:
+* The feature "Petal width" can distinguish the targets better that other features. Also to some great degree, the Petal lenght is unique for each of the 3 species.
+
 * Virginia has the longest Sepal length, Petal length and Petal width.
 
-* Setosa however has the longest Sepal width. 
-
-* Also Setosa has the smallest Petal width compared to both Versicolor and Virginica.
+* Setosa however has the longest Sepal width. Also Setosa has the smallest Petal width and length, compared to both Versicolor and Virginica.
 
 
 ### Prerequisites - how to run the code
@@ -347,6 +347,8 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [13] https://www.datacamp.com/community/tutorials/pandas-read-csv
 
 [14] https://stackoverflow.com/a/45721331
+
+[15] https://mclguide.readthedocs.io/en/latest/sklearn/moreex1.html
 
 
 
