@@ -268,7 +268,7 @@ There is considerable overlap between Iris Virginica and Iris Versicolor suggsti
 
 [4] Pairwise_Plot script:
 
-From the pairwise plots, we see that Iris-setosa is distinguishable in all aspects. As for differentiating between Iris-versicolor and Irish-verginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of versicolor is smaller than that of virginica.
+From the pairwise plots, we see that Iris-setosa is distinguishable in all aspects. As for differentiating between Versicolor and Virginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of versicolor is smaller than that of virginica.
 
 [5] 3D_Scatter_Plot script:
 
