@@ -184,6 +184,7 @@ From the results from Mean function it is clear, that sepal is larger than petal
 
 ## Summary of investigations
 
+Analysis and Conclusions
 
 ### Prerequisites - how to run the code
 
@@ -315,7 +316,7 @@ https://www.gmit.ie/general/quality-assurance-framework.
 
 [10] https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 
-[11] https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
+[11] https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
 
 [12] https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
