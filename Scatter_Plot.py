@@ -17,7 +17,7 @@ names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species'
 
 # https://www.kaggle.com/anthonyhills/classifying-species-of-iris-flowers
 # https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
-# # It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
+# It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
 sns.FacetGrid(data, hue="species", height=10).map(plt.scatter, "sepal_length", "sepal_width").add_legend() 
 
 plt.show()
