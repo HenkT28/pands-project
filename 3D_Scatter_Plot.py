@@ -16,6 +16,7 @@ import seaborn as sns
 data = pd.read_csv("iris_original.csv")
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
 
+# https://stackoverflow.com/questions/38666527/what-is-the-necessity-of-plt-figure-in-matplotlib
 fig=plt.figure()
 ax=fig.add_subplot(111, projection='3d')
 
