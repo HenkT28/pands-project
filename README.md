@@ -452,4 +452,6 @@ https://www.gmit.ie/general/quality-assurance-framework.
 
 [23] https://www.cs.odu.edu/~ccartled/Teaching/2017-Fall/DataAnalysis/Presentations/030-iris-dataset.pdf
 
+[24] https://www.kaggle.com/lnbalon/iris-dataset-eda-and-classification-analysis
+
 
