@@ -22,8 +22,10 @@ sns.set(font_scale=1.35, style="ticks")
 # Loading Iris Data Set
 iris = sns.load_dataset("iris")
 
-# Getting error - https://stackoverflow.com/a/54732522 (using a non-tuple sequence for multidimensional indexing is deprecated)
-# pip install --user --upgrade scipy (works).
+# Getting error - https://stackoverflow.com/a/54732522 (using a non-tuple sequence for multidimensional indexing is deprecated):
+# pip install --user --upgrade scipy (this worked).
 plot = sns.pairplot(iris, hue='species', diag_kind="kde", palette='husl')
+
+# plot = sns.pairplot(iris, hue="species", height=3)
 
 plt.show()

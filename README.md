@@ -315,6 +315,23 @@ From the pairwise plots, we see that Setosa is distinguishable in all aspects. A
 
 This script will give you a glance of the Iris data set showing in 3D format. As you can see, there is high concentration of samples where Sepal length is low, and Petal length is low as well. 
 
+[6] Iris_Boxplot.py script:
+
+The library seaborn, and functions boxplot, and stripplot, produce some great graphics as you can see. Again another view in display the differences between the 3 species of Iris for each of the 4 features. 
+
+The box shows the high concentration, the high distribution of samples for this Iris Data Set. The other function, strip plot, gives another layer. It shows all observations, all samples taken for this Iris Data Set, along with some representation of the underlying distribution.
+
+The graphics are really self explanatory, and complement the earlier findings.
+
+![boxplot_petal_length](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_petal_length.png)
+
+![boxplot_petal_width](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_petal_width.png)
+
+![boxplot_sepal_length](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_sepal_length.png)
+
+![boxplot_sepal_width](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_sepal_width.png)
+
+
 ### Prerequisites - how to run the code
 
 1. Make sure you have Python installed, or Anaconda: 
@@ -474,4 +491,7 @@ https://www.gmit.ie/general/quality-assurance-framework.
 
 [24] https://www.kaggle.com/lnbalon/iris-dataset-eda-and-classification-analysis
 
+[25] https://seaborn.pydata.org/generated/seaborn.stripplot.html
+
+[26] https://seaborn.pydata.org/generated/seaborn.boxplot.html
 
