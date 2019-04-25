@@ -168,13 +168,19 @@ So this script shows 3 Rows With Distinct Values in Specific Column "species", f
 
 Read the data set, iris.csv file, into an array using numpy library. Then used max function numpy, to retrieve the maximum value for each of the four columns.
 
+![max](https://github.com/HenkT28/pands-project/blob/master/Images/max.png)
+
 3. Iris_Min_Value.py:
 
 Used numpy library, and read the Iris data set, iris.csv into an array. This time I used min function, to retrieve the minimum value for each of the four columns.
 
+![min](https://github.com/HenkT28/pands-project/blob/master/Images/min.png)
+
 4. Iris_Mean_Value.py:
 
-I read the data set, iris.csv file into an array and used mean function numpy, to get the mean value for each of the four columns.
+I read the data set, iris.csv file into an array and used mean function numpy, to get the mean value for each of the four columns. Just note using numpy package to calculate the mean, is not the same as average, of each column.
+
+![mean](https://github.com/HenkT28/pands-project/blob/master/Images/mean.png)
 
 5. Iris_Data_Set_Describe.py:
 
