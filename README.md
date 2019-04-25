@@ -195,6 +195,7 @@ For numeric data, as in this case, the result’s index will include count, mean
 The percentiles to include in the output. All should fall between 0 and 1. 
 
 These are some parametric and non parametric statistics of our dataset. 
+
 Parametric: mean, std, min, max, count. Non Parametric: 25%, 50%, 75%.
 
 Running print(data.describe()) produces below summary:
@@ -238,22 +239,22 @@ It provides info on "sepal_length", in combination with "petal_length", and "pet
 
 ## Summary of Investigations and Conclusions
 
-The start of each of the Python scripts lists the libraries I used and imported to generate some meaningful output, and graphics.
+The start of each of the Python scripts lists the libraries used to generate some meaningful output, and graphics.
 
 The first step to any data science project is to import your data. I used the read_csv() function from pandas to import this data. Loading CSV files specifically with pandas has become standard practice for working data scientists today.
 
-As so many people have done extensive research into the Iris Data set, I used a number of different approaches, different experiments, and on top various libraries to create useful scripts, and get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
+As so many people have done extensive research into the Iris Data set, which explains the huge amount of resources available on the internet, I used a number of different approaches, and on top various libraries to get some meaningful output, and hopefully get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
 
-It's hightly relevant to calculate the max, min and mean of each column, but just based on the output of these scripts, it's hard to draw any conclusions. It's important to understand what are the major differences between these species of Iris especially where it concerns measurements of their petals and sepals. And to show such differences visually is key.
+It's important to calculate the max, min and mean of each column, but just based on the output of these scripts, it's hard to draw any conclusions. The main point is to understand what the major differences are between these species of Iris especially where it concerns measurements of their petals and sepals. And to show such differences visually is key.
 
 So not only did I use histograms, also scatter plots. For a defintion of scatter plot, please go here:
 
-[*] https://en.wikipedia.org/wiki/Scatter_plot [18]
+https://en.wikipedia.org/wiki/Scatter_plot [18]
 
 A scatter plot (also called a scatterplot, scatter graph, scatter chart, scattergram, or scatter diagram) is a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. A scatter plot can suggest various kinds of correlations between variables with a certain confidence interval. Correlations may be positive (rising), negative (falling), or null (uncorrelated). If the pattern of dots slopes from lower left to upper right, it indicates a positive correlation between the variables being studied. If the pattern of dots slopes from upper left to lower right, it indicates a negative correlation. A line of best fit (alternatively called 'trendline') can be drawn in order to study the relationship between the variables.
 
 
-[Analysis and Conclusions]
+## [Analysis and Conclusions]
 
 [1] Based on Iris_Data_Set_Describe script:
 
@@ -265,11 +266,11 @@ Running print(data.describe()) produces below summary:
 
 So this gives you some understanding on the Mean, Max and Min of the entire Iris data set.
 
-One observation is that Sepal length ranges from 4.3cm to 7.9cm, while Petal length differs with a range of 1.0cm to 6.9cm, so much wider scope.
+One observation is that Sepal length ranges from 4.3cm to 7.9cm, while Petal length differs between 1.0cm to 6.9cm, so much wider scope. Maximum and minimum Sepal width varies between 4.4cm and 2.0cm, while the Petal width is between 2.5cm and and 0.10cm. 
 
 [2] Iris.Histogram & Petal_Sepal_Dist scripts:
 
-From both you can draw very much the same conclusions - and while one is a histogram, the other is a scatter plot - they immediately provide some differences:
+From both graphics, you can draw very much the same conclusions - and while one is a histogram, the other is a scatter plot - they immediately provide you with some major observations:
 * The feature "Petal width" can distinguish the targets better that other features. Also to some great degree, the Petal lenght is unique for each of the 3 species.
 
 * Virginia has the longest Sepal length, Petal length and Petal width.
@@ -282,11 +283,13 @@ From both you can draw very much the same conclusions - and while one is a histo
 
 From this scattered plot, we can distinctly distinguish Setosa, but Iris Versicolor and Virginica can't be separated based on their sepal width and sepal length. Thus to distinguish between versicolor and virginica, we have to analyse some other features. 
 
-There is considerable overlap between Iris Virginica and Iris Versicolor suggsting a high correlation and predictable relationship. To differentiate, here, we can use pairwise plotting.
+There is considerable overlap between Iris Virginica and Iris Versicolor suggsting a high correlation and predictable relationship. 
+
+To differentiate, here, we can use pairwise plotting.
 
 [4] Pairwise_Plot script:
 
-From the pairwise plots, we see that Iris-setosa is distinguishable in all aspects. As for differentiating between Versicolor and Virginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of versicolor is smaller than that of virginica.
+From the pairwise plots, we see that Setosa is distinguishable in all aspects. As for differentiating between Versicolor and Virginica, they can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of Versicolor is smaller than that of Virginica.
 
 [5] 3D_Scatter_Plot script:
 
@@ -346,6 +349,7 @@ I recommend you run the python scripts from command line, from cmder for example
 python <script_name>.py
 
 There is no need to type in full script name, just by using the tab key on your keyboard it will auto-complete the script name automatically, from the folder location.
+
 
 ## Deployment
 
