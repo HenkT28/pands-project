@@ -7,10 +7,6 @@
 # Importing Package 
 import numpy
 import pandas
-from pandas.plotting import scatter_matrix
-import matplotlib.pyplot as plt
-import numpy as np
-import seaborn as sns
 
 # Reading Iris Dataset in Pandas Dataframe
 data = pandas.read_csv("iris_original.csv")
