@@ -143,6 +143,10 @@ https://seaborn.pydata.org/
 For example:
 https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
+https://seaborn.pydata.org/generated/seaborn.stripplot.html
+
+https://seaborn.pydata.org/generated/seaborn.boxplot.html
+
 [4]. Sklearn
 
 https://scikit-learn.org/
