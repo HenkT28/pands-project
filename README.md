@@ -192,9 +192,10 @@ The first section describes "Setosa", the second part "Versicolor", and the thir
 
 For numeric data, as in this case, the result’s index will include count, mean, std, min, max as well as lower, 50 and upper percentiles. By default the lower percentile is 25 and the upper percentile is 75. The 50 percentile is the same as the median.
 
-The percentiles to include in the output. All should fall between 0 and 1. The default is [.25, .5, .75], which returns the 25th, 50th, and 75th percentiles.
+The percentiles to include in the output. All should fall between 0 and 1. 
 
-These are some parametric and non parametric statistics of our dataset. Parametric: mean, std, min, max, count. Non Parametric: 25%, 50%, 75%.
+These are some parametric and non parametric statistics of our dataset. 
+Parametric: mean, std, min, max, count. Non Parametric: 25%, 50%, 75%.
 
 Running print(data.describe()) produces below summary:
 
