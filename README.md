@@ -111,7 +111,7 @@ Note:
 * Iris setosa, Iris versicolor and Iris virginica are three species (not varieties, as in some statistical accounts); their binominals should be presented in italic, as here; and Iris as genus name and the other names indicating particular species should begin with upper and lower case respectively.
 
 
-Here are some lines of python code that defines how this data set can be analyzed:
+Here is some Python code that defines how this data set can be analyzed:
 
 ![Some lines showing how Python can be used](https://github.com/HenkT28/pands-project/blob/master/Images/Some_lines_how_Python_works.png)
 
