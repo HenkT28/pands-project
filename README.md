@@ -47,8 +47,10 @@ It is sometimes called Anderson's Iris data set because Edgar Anderson collected
 
 Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus".[3]
 
+The Gaspésie, or Gaspé Peninsula, the Gaspé or Gaspesia, is a peninsula along the south shore of the Saint Lawrence River to the east of the Matapedia Valley in Quebec, Canada, that extends into the Gulf of Saint Lawrence.
 
-The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). 
+
+The data set consists of 50 samples from each of three species of Iris (Iris Setosa, Iris Virginica and Iris Versicolor). 
 
 Photo's Iris flowers of the three related species:
 
@@ -56,9 +58,13 @@ Photo's Iris flowers of the three related species:
 
 The dataset is a record of feature measurements (petal lengths and widths, sepal lengths and widths) of the different species of Iris flowers.[9]
 
-There are five columns in this dataset with the following variable names: Sepal Length, Sepal Width, Petal Length, Petal Width, and species. The first four variables are real measurements made in centimeters. 
+There are five columns in this dataset with the following variable names: Sepal Length, Sepal Width, Petal Length, Petal Width, and Species. The first four variables are real measurements made in centimeters. 
 
 But what are these measurements? And why are these parts of the flower so important? It turns out that this dataset was used to try to make a computer predict which specimens (in rows) belonged to each species of Iris flower. This sort of problem was up in the air in the time before genetics was used to classify animals. At the time, scientists depended on what these species looked like in order to make the distinctions.
+
+
+Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. Based on the model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
+
 
 What are exactly the petals and the sepals of a flower? See below.
 
@@ -71,9 +77,6 @@ Here’s a rough and simple-worded way of differentiating them:
 * Sepals — the often green fan base that serves as a cup for the flower to sit on.
 
 
-Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. Based on the model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
-
-
 ## What aspects of the Iris Data Set, make it so successful as an example teaching test data set?
 
 The Iris dataset is deservedly widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
@@ -83,6 +86,14 @@ The Iris dataset is deservedly widely used throughout statistical science, espec
 There are no null values in the data set.
 
 There are 50 observations of each species (setosa, versicolor, virginica).
+
+Anderson classified 50 examples of 3 different species. Each specimen was [23]:
+
+* Collected on the same day
+
+* Collected by the same person
+
+* Measured using the same instruments
 
 [b] The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
 
@@ -428,5 +439,6 @@ https://www.gmit.ie/general/quality-assurance-framework.
 
 [22] https://matplotlib.org/users/pyplot_tutorial.html
 
+[23] https://www.cs.odu.edu/~ccartled/Teaching/2017-Fall/DataAnalysis/Presentations/030-iris-dataset.pdf
 
 
