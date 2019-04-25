@@ -240,6 +240,22 @@ It provides info on "sepal_length", in combination with "petal_length", and "pet
 
 ![3D](https://github.com/HenkT28/pands-project/blob/master/Images/3D.png)
 
+11. Iris_Boxplot.py:
+
+Imported several libraries including seaborn, and used function boxplot, and stripplot, to display the differences between the 3 species of Iris for each of the 4 features. This produces great graphics, as you can see from below examples.
+
+A box plot (or box-and-whisker plot) shows the distribution of quantitative data in a way that facilitates comparisons between variables or across levels of a categorical variable.
+
+A strip plot can be drawn on its own, but it is also a good complement to a box or violin plot in cases where you want to show all observations along with some representation of the underlying distribution.
+
+![boxplot_petal_length](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_petal_length.png)
+
+![boxplot_petal_width](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_petal_width.png)
+
+![boxplot_sepal_length](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_sepal_length.png)
+
+![boxplot_sepal_width](https://github.com/HenkT28/pands-project/blob/master/Images/boxplot_sepal_width.png)
+
 
 ## Summary of Investigations and Conclusions
 
