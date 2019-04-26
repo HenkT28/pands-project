@@ -130,13 +130,13 @@ And some random examples of plotting the three species, of Iris, against each ot
 
 https://pandas.pydata.org/
 
-[2]. Matplotlib & Pyplot
+[2]. Matplotlib & Pyplot:
 
 https://matplotlib.org/
 
 https://matplotlib.org/api/pyplot_api.html
 
-[3]. Seaborn
+[3]. Seaborn:
 
 https://seaborn.pydata.org/
 
@@ -148,13 +148,13 @@ https://seaborn.pydata.org/generated/seaborn.stripplot.html
 
 https://seaborn.pydata.org/generated/seaborn.boxplot.html
 
-[4]. Sklearn
+[4]. Sklearn:
 
 https://scikit-learn.org/
 
 Sklearn is a machine learning python library that is widely used for data-science related tasks. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means, KNN, etc. Under sklearn you have a library called datasets in which you have multiple datasets that can be used for different tasks including the Iris dataset, all these datasets can be loaded out of the box.
 
-[5]. mpl_toolkits
+[5]. mpl_toolkits:
 
 https://matplotlib.org/mpl_toolkits/index.html
 
