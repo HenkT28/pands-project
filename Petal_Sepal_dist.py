@@ -31,8 +31,8 @@ setosa.plot(x="petal_length", y="petal_width", kind="scatter",ax=ax[1],label='se
 versicolor.plot(x="petal_length",y="petal_width",kind="scatter",ax=ax[1],label='versicolor',color='b')
 virginica.plot(x="petal_length", y="petal_width", kind="scatter", ax=ax[1], label='virginica', color='g')
 
-ax[0].set(title='Sepal comparasion ', ylabel='sepal-width')
-ax[1].set(title='Petal Comparasion',  ylabel='petal-width')
+ax[0].set(title='Sepal Comparison', ylabel='sepal-width')
+ax[1].set(title='Petal Comparison',  ylabel='petal-width')
 ax[0].legend()
 ax[1].legend()
 plt.show()
