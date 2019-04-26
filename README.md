@@ -152,6 +152,8 @@ https://seaborn.pydata.org/generated/seaborn.boxplot.html
 
 https://scikit-learn.org/
 
+Sklearn is a machine learning python library that is widely used for data-science related tasks. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means, KNN, etc. Under sklearn you have a library called datasets in which you have multiple datasets that can be used for different tasks including the Iris dataset, all these datasets can be loaded out of the box.
+
 [5]. mpl_toolkits
 
 https://matplotlib.org/mpl_toolkits/index.html
@@ -287,7 +289,7 @@ Running print(data.describe()) produces below summary:
 
 So this gives you some understanding on the Mean, Max and Min of the entire Iris data set.
 
-One observation is that Sepal length ranges from 4.3cm to 7.9cm, while Petal length differs between 1.0cm to 6.9cm, so much wider scope. Maximum and minimum Sepal width varies between 4.4cm and 2.0cm, while the Petal width is between 2.5cm and and 0.10cm. 
+The sepal length attribute has values that go from 4.3 to 7.9 and sepal width contains values from 2 to 4.4, while petal length values range from 1 to 6.9 and petal width ranges from 0.1 to 2.5. 
 
 [2] Iris.Histogram & Petal_Sepal_Dist scripts:
 
@@ -497,4 +499,6 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [25] https://seaborn.pydata.org/generated/seaborn.stripplot.html
 
 [26] https://seaborn.pydata.org/generated/seaborn.boxplot.html
+
+[27] https://www.datacamp.com/community/tutorials/introduction-machine-learning-python
 
