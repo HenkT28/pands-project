@@ -207,7 +207,7 @@ Running print(data.describe()) produces below summary:
 
 ![summary](https://github.com/HenkT28/pands-project/blob/master/Images/summary.png)
 
-6. Iris.Histogram.py:
+6. Iris_Histogram.py:
 
 This provides 4 histograms of iris dataset features using matplotlib & sklearn.
 
