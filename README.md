@@ -264,7 +264,9 @@ A strip plot can be drawn on its own, but it is also a good complement to a box 
 
 The start of each of the Python scripts lists the libraries used to generate some meaningful output, and graphics.
 
-The first step to any data science project is to import your data. I used the read_csv() function from pandas to import this data. Loading CSV files specifically with pandas has become standard practice for working data scientists today.
+The first step to any data science project is to import your data. I used the read_csv() function from pandas to import this data. Also used genfromtxt function numpy package. And at other times, loaded Iris Data Set using Seaborn.
+
+Loading CSV files specifically with pandas has become standard practice for working data scientists today.
 
 As so many people have done extensive research into the Iris Data set, which explains the huge amount of resources available on the internet, I used a number of different approaches, and on top various libraries to get some meaningful output, and hopefully get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
 
