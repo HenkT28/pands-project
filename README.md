@@ -292,7 +292,9 @@ One observation is that Sepal length ranges from 4.3cm to 7.9cm, while Petal len
 [2] Iris.Histogram & Petal_Sepal_Dist scripts:
 
 From both graphics, you can draw very much the same conclusions - and while one is a histogram, the other is a scatter plot - they immediately provide you with some major observations:
-* The feature "Petal width" can distinguish the targets better that other features. Also to some great degree, the Petal length is unique for each of the 3 species.
+* The feature "Petal width" can distinguish the targets better that other features. 
+
+* Also to some great degree, the Petal length is unique for each of the 3 species. We can conclude that there is a difference among mean petal lengths for the different species of iris flowers. Thus, Petal Length is a good way to tell the flowers apart. 
 
 * Virginia has the longest Sepal length, Petal length and Petal width.
 
