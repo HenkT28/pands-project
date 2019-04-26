@@ -141,6 +141,7 @@ https://matplotlib.org/api/pyplot_api.html
 https://seaborn.pydata.org/
 
 For example:
+
 https://seaborn.pydata.org/examples/scatterplot_matrix.html
 
 https://seaborn.pydata.org/generated/seaborn.stripplot.html
