@@ -1,5 +1,5 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - plotting iris data set
+# Iris Data Set - 3D graph iris data set
 
 # https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 # https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
@@ -14,7 +14,7 @@ import seaborn as sns
 
 # Reading Iris Dataset in Pandas Dataframe
 data = pd.read_csv("iris_original.csv")
-names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
+names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
 # https://stackoverflow.com/questions/38666527/what-is-the-necessity-of-plt-figure-in-matplotlib
 fig=plt.figure()
