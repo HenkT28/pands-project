@@ -25,7 +25,7 @@ The project entails researching the data set, and then writing documentation and
 
 1. Go to Github web site - User Account: HenkT28 
 
-(https://github.com/HenkT28)
+https://github.com/HenkT28
 
 2. Click on the download button, and copy/paste the link:
 
