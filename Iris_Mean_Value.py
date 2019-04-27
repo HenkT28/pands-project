@@ -17,12 +17,15 @@ my_data_set = np.genfromtxt('iris.csv', delimiter=',')
 # Using mean function numpy package
 mean_firstcolumn = np.mean(my_data_set[:,0]) 
 
+# All of the values in the 2nd column of the array
 # secondcolumn = (my_data_set[:,1])
 mean_secondcolumn = np.mean(my_data_set[:,1])
 
+# All of the values in the 3rd column of the array
 # thirdcolumn = (my_data_set[:,2])
 mean_thirdcolumn = np.mean(my_data_set[:,2])
 
+# All of the values in the 4th column of the array
 # fourthcolumn = (my_data_set[:,3])
 mean_fourthcolumn = np.mean(my_data_set[:,3])
 
