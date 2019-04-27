@@ -1,5 +1,5 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - plotting iris data set
+# Iris Data Set - describe it
 
 # https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 # https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
@@ -10,7 +10,7 @@ import pandas
 
 # Reading Iris Dataset in Pandas Dataframe
 data = pandas.read_csv("iris_original.csv")
-names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
+names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
 # Created 3 DataFrame for each Species
 # https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html

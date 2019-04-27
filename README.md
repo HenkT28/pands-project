@@ -173,7 +173,7 @@ mpl_toolkits.mplot3d provides some basic 3D plotting (scatter, surf, line, mesh)
 
 First of all I'm reading Iris Dataset in Pandas Dataframe, and although print(data.head(30)) provides a glimpse how the first 30 rows look like, they all refer to the Iris Setosa.
 
-So this script shows 3 Rows With Distinct Values in Specific Column "species", for Iris Setosa, Versicolor, and Virginica.
+So this script shows 3 Rows With Distinct Values in Specific Column "species", for Iris Setosa, Versicolor, and Virginica (50 samples each).
 
 ![Iris_Data_Set_Content_script](https://github.com/HenkT28/pands-project/blob/master/Images/Iris_Data_Set_Content_script.png)
 
