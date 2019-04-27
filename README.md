@@ -231,7 +231,7 @@ Reading Iris Dataset in Pandas Dataframe, then using matplotlib.pyplot library t
 
 8. Scatter_Plot.py:
 
-Importing several packages, pandas, matplotlib.pyplot and seaborn, loading data set, and configuring scatter plot for Sepal Length and Sepal Width.
+Importing several packages, pandas, matplotlib.pyplot and seaborn, loading data set, and configuring scatter plot for Sepal Length and Sepal Width. Also Petal Length, and Petal Width are displayed.
 
 ![scatter1](https://github.com/HenkT28/pands-project/blob/master/Images/scatter1.png)
 
