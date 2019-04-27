@@ -1,5 +1,5 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - plotting iris data set
+# Iris Data Set - histogram
 
 # Histogram of the ‘targets’ with respect to each feature of the dataset.
 
