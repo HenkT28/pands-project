@@ -1,5 +1,5 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - plotting iris data set
+# Iris Data Set - Box and Strip plot combined
 
 # https://www.kaggle.com/lnbalon/iris-dataset-eda-and-classification-analysis
 
