@@ -13,11 +13,12 @@ import seaborn as sns
 
 # Reading Iris Dataset in Pandas Dataframe
 data = pd.read_csv("iris_original.csv")
-names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
+names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
 # https://www.kaggle.com/anthonyhills/classifying-species-of-iris-flowers
 # https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn
 # It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
 sns.FacetGrid(data, hue="species", height=10).map(plt.scatter, "sepal_length", "sepal_width").add_legend() 
+sns.FacetGrid(data, hue="species", height=10).map(plt.scatter, "petal_length", "petal_width").add_legend() 
 
 plt.show()

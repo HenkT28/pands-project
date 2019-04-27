@@ -233,7 +233,9 @@ Reading Iris Dataset in Pandas Dataframe, then using matplotlib.pyplot library t
 
 Importing several packages, pandas, matplotlib.pyplot and seaborn, loading data set, and configuring scatter plot for Sepal Length and Sepal Width.
 
-![scatter](https://github.com/HenkT28/pands-project/blob/master/Images/scatter.png)
+![scatter1](https://github.com/HenkT28/pands-project/blob/master/Images/scatter1.png)
+
+![scatter2](https://github.com/HenkT28/pands-project/blob/master/Images/scatter2.png)
 
 9. Pairwise_Plot.py:
 
