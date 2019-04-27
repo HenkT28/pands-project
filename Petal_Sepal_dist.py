@@ -32,8 +32,8 @@ versicolor.plot(x="petal_length",y="petal_width",kind="scatter",ax=ax[1],label='
 virginica.plot(x="petal_length", y="petal_width", kind="scatter", ax=ax[1], label='virginica', color='g')
 
 # Setting title of the graphs
-ax[0].set(title='Sepal Comparison', ylabel='sepal-width')
-ax[1].set(title='Petal Comparison',  ylabel='petal-width')
+ax[0].set(title='Sepal Comparison', ylabel='sepal_width')
+ax[1].set(title='Petal Comparison',  ylabel='petal_width')
 ax[0].legend()
 ax[1].legend()
 plt.show()
