@@ -1,5 +1,6 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - removed headers csv file otherwise generates error "nan" -> not a number, it means the csv file contained column headers
+# Iris Data Set - minimum value of each column
+# Removed headers csv file otherwise generates error "nan" -> not a number, it means the csv file contained column headers
 
 # https://www.dataquest.io/blog/numpy-tutorial-python/
 
@@ -13,7 +14,6 @@ my_data_set = np.genfromtxt('iris.csv', delimiter=',')
 
 # All of the values in the 1st column of the array
 # firstcolumn = (my_data_set[:,0]) 
-# https://stackoverflow.com/questions/35503718/how-to-find-the-maximum-value-of-a-numpy-array-between-given-indicies
 # Used min function numpy package this time
 min_firstcolumn = np.min(my_data_set[:,0]) 
 

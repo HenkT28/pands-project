@@ -1,5 +1,6 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - removed headers csv file otherwise generates error "nan" -> not a number, it means the csv file contained column headers
+# Iris Data Set - mean of each column
+# Removed headers csv file otherwise generates error "nan" -> not a number, it means the csv file contained column headers
 
 # https://www.dataquest.io/blog/numpy-tutorial-python/
 
