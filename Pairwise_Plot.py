@@ -1,5 +1,5 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - plotting iris data set
+# Iris Data Set - pairwise plotting iris data set
 
 # https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 # https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
