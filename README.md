@@ -130,15 +130,21 @@ And some random examples of plotting the three species, of Iris, against each ot
 
 https://pandas.pydata.org/
 
+In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. The name is derived from the term "panel data", an econometrics term for data sets that include observations over multiple time periods for the same individuals.[28]
+
 [2]. Matplotlib & Pyplot:
 
 https://matplotlib.org/
+
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib tries to make easy things easy and hard things possible. You can generate plots, histograms, power spectra, bar charts, errorcharts, scatterplots, etc., with just a few lines of code. 
 
 https://matplotlib.org/api/pyplot_api.html
 
 [3]. Seaborn:
 
 https://seaborn.pydata.org/
+
+Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
 For example:
 
@@ -503,4 +509,6 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [26] https://seaborn.pydata.org/generated/seaborn.boxplot.html
 
 [27] https://www.datacamp.com/community/tutorials/introduction-machine-learning-python
+
+[28] https://en.wikipedia.org/wiki/Pandas_(software)
 
