@@ -17,13 +17,13 @@ sns.set(font_scale=1.35, style="ticks")
 
 # Reading Iris Dataset in Pandas Dataframe
 # data = pd.read_csv("iris_original.csv")
-# names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
+# names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
 
 # Loading Iris Data Set
 iris = sns.load_dataset("iris")
 
 # Getting error - https://stackoverflow.com/a/54732522 (using a non-tuple sequence for multidimensional indexing is deprecated):
-# pip install --user --upgrade scipy (this worked).
+# pip install --user --upgrade scipy (this upgrade to version 1.2 worked, addressed error about "using a non-tuple sequence for multidimensional indexing is deprecated")
 plot = sns.pairplot(iris, hue='species', diag_kind="kde", palette='husl')
 
 # plot = sns.pairplot(iris, hue="species", height=3)

@@ -30,6 +30,6 @@ ax.scatter(x,y,z,c='r',marker='o')
 
 ax.set_xlabel('sepal_length')
 ax.set_ylabel('petal_length')
-ax.set_zlabel('petal-width')
+ax.set_zlabel('petal_width')
 
 plt.show()

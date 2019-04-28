@@ -1,5 +1,5 @@
 # Henk Tjalsma, 2019
-# Iris Data Set - petal and sepal distibution
+# Iris Data Set - petal and sepal distribution
 
 # https://www.kaggle.com/abhishekkrg/python-iris-data-visualization-and-explanation
 # https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
