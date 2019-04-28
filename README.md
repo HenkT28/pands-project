@@ -436,7 +436,7 @@ Alternatvely install the full Anaconda package which has Python functionality in
 * [cmder](https://cmder.net/) - Official cmder website
 * [Anaconda](https://www.anaconda.com/distribution/) - The open-source Anaconda Distribution is the easiest way to perform Python/R data science and machine learning on Linux, Windows, and Mac OS X.
 
-## Reading script code
+### Reading script code
 
 If you want to read the script code, and accompanying Problem Assessment README, most text editors would be sufficient, but I recommend notepad ++ or even better visual studio code. 
 
