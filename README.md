@@ -23,7 +23,7 @@ GMIT email address: G00376321@gmit.ie
 ## Problem statement
 The project entails researching the data set, and then writing documentation and code in the Python programming language based on that research.
 
-1. Go to Github web site - User Account: HenkT28:
+1. Go to Github web site - User Account: HenkT28
 
 https://github.com/HenkT28
 
