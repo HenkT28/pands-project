@@ -42,7 +42,7 @@ The Iris flower data set or Fisher's Iris data set is a multivariate data set in
 
 * The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.[1] 
 
-http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf[30]
+http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf [30]
 
 
 It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.[2] 
