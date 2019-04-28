@@ -290,7 +290,7 @@ So not only did I use histograms and scatter plots, I expermimented with several
 
 And then you could approach the Iris Data Set from other view points, say apply machine learning, and do testing by using various predictive algorithms from scikit-learn.
 
-For a defintion of scatter plot, please go here:
+For a definition of scatter plot, please go here:
 
 https://en.wikipedia.org/wiki/Scatter_plot [18]
 
