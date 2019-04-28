@@ -280,7 +280,11 @@ As so many people have done extensive research into the Iris Data set, which exp
 
 It's important to calculate the max, min and mean of each column, but just based on the output of these scripts, it's hard to draw any conclusions. The main point is to understand what the major differences are between these species of Iris especially where it concerns measurements of their petals and sepals (petal lengths and widths, sepal lengths and widths). And to show such differences visually is key.
 
-So not only did I use histograms, also scatter plots. For a defintion of scatter plot, please go here:
+So not only did I use histograms and scatter plots, I expermimented with several graphics, 3D for example. There are simply many ways of producing meaningful plots. 
+
+And then you could approach the Iris Data Set from other view points, say apply machine learning, and do testing by using various predictive algorithms from scikit-learn.
+
+For a defintion of scatter plot, please go here:
 
 https://en.wikipedia.org/wiki/Scatter_plot [18]
 
@@ -513,4 +517,6 @@ https://www.gmit.ie/general/quality-assurance-framework.
 [27] https://www.datacamp.com/community/tutorials/introduction-machine-learning-python
 
 [28] https://en.wikipedia.org/wiki/Pandas_(software)
+
+[29] https://www.kaggle.com/gilsousa/prediction-iris-dataset
 
