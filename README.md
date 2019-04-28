@@ -62,7 +62,7 @@ The dataset is a record of feature measurements (petal lengths and widths, sepal
 
 There are five columns in this dataset with the following variable names: Sepal Length, Sepal Width, Petal Length, Petal Width, and Species. The first four variables are real measurements made in centimeters. 
 
-But what are these measurements? And why are these parts of the flower so important? It turns out that this dataset was used to try to make a computer predict which specimens (in rows) belonged to each species of Iris flower. This sort of problem was up in the air in the time before genetics was used to classify animals. At the time, scientists depended on what these species looked like in order to make the distinctions.
+But what are these measurements? And why are these parts of the flower so important? It turns out that this dataset was used to try to make a computer predict which specimens (in rows) belonged to each species of Iris flower. This sort of problem was up in the air at the time before genetics was used to classify animals. At the time, scientists depended on what these species looked like in order to make the distinctions.
 
 
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. Based on the model, this data set became a typical test case for many statistical classification techniques in machine learning such as support vector machines.[4]
