@@ -288,7 +288,7 @@ It's important to calculate the max, min and mean of each column, but just based
 
 So not only did I use histograms and scatter plots, I expermimented with several graphics, 3D for example. There are simply many ways of producing meaningful plots. 
 
-And then you could approach the Iris Data Set from other view points, say apply machine learning, and do testing by using various predictive algorithms from scikit-learn.
+And then you could approach the Iris Data Set from other view points, say apply machine learning, and do testing by using various predictive algorithms from scikit-learn. I did not include that here.
 
 For a definition of scatter plot, please go here:
 
