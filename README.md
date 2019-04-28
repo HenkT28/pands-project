@@ -23,7 +23,7 @@ GMIT email address: G00376321@gmit.ie
 ## Problem statement
 The project entails researching the data set, and then writing documentation and code in the Python programming language based on that research.
 
-1. Go to Github web site - User Account: HenkT28 
+1. Go to Github web site - User Account: HenkT28:
 
 https://github.com/HenkT28
 
@@ -398,7 +398,7 @@ For example, from cmder go to the directory containing the .py scripts, by using
 python <script_name>.py
 
 
-## Break down into end to end tests
+### Break down into end to end tests
 
 I recommend you run the python scripts from command line, from cmder for example, but make sure you go to the right directory first containing the .py scripts, by using cd command, and then run the script as follows:
 
@@ -407,7 +407,7 @@ python <script_name>.py
 There is no need to type in full script name, just by using the tab key on your keyboard it will auto-complete the script name automatically, from the folder location.
 
 
-## Deployment
+### Deployment
 
 First of all I recommend you to go to the official Python website:
 
@@ -424,7 +424,7 @@ https://docs.python.org/3.7/whatsnew/changelog.html#python-3-7-2-final
 
 Alternatvely install the full Anaconda package which has Python functionality included.
 
-## Built With
+### Built With
 
 * [Python](https://www.python.org/downloads/) - The official Python website
 * [cmder](https://cmder.net/) - Official cmder website
