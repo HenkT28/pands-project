@@ -284,7 +284,7 @@ Loading CSV files specifically with pandas has become standard practice for work
 
 As so many people have done extensive research into the Iris Data set, which explains the huge amount of resources available on the internet, I used a number of different approaches, and on top various libraries to get some meaningful output, and hopefully get a clear understanding why this Iris Data Set is so widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.[8]
 
-It's important to calculate the max, min and mean of each column, but just based on the output of these scripts, it's hard to draw any conclusions. The main point is to understand what the major differences are between these species of Iris especially where it concerns measurements of their petals and sepals (petal lengths and widths, sepal lengths and widths). And to show such differences visually is key.
+It's important to calculate the max, min and mean of each column, but just based on the output of these scripts, it's hard to draw final conclusions. The main point is to understand what the major differences are between these species of Iris especially where it concerns measurements of their petals and sepals (petal lengths and widths, sepal lengths and widths). And to show such differences visually is key.
 
 So not only did I use histograms and scatter plots, I expermimented with several graphics, 3D for example. There are simply many ways of producing meaningful plots. 
 
