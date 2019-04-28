@@ -110,7 +110,7 @@ Anderson classified 50 examples of 3 different species. Each specimen was [23]:
 
 Note:
 
-* Iris setosa, Iris versicolor and Iris virginica are three species (not varieties, as in some statistical accounts); their binominals should be presented in italic, as here; and Iris as genus name and the other names indicating particular species should begin with upper and lower case respectively.
+* Iris setosa, Iris versicolor and Iris virginica are three species (not varieties, as in some statistical accounts).
 
 
 Here is some Python code that defines how this data set can be analyzed:
