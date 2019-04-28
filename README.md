@@ -417,15 +417,15 @@ There is no need to type in full script name, just by using the tab key on your 
 
 First of all I recommend you to go to the official Python website:
 
-https://www.python.org/downloads/release/python-372/
+https://www.python.org/downloads/release/python-373/
 
-As of now, 19/03/19. Python 3.7.2 is the latest version available for download and can be deployed on Windows, Linux/Unix, MacOS, and other operating systems.
+As of now, 25/03/19. Python 3.7.3 is the latest version available for download and can be deployed on Windows, Linux/Unix, MacOS, and other operating systems.
 
 I would suggest you consult the documentation carefully, and follow below links:
 
 https://www.python.org/downloads/
 
-https://docs.python.org/3.7/whatsnew/changelog.html#python-3-7-2-final
+https://docs.python.org/3.7/whatsnew/changelog.html#python-3-7-3-final
 
 
 Alternatvely install the full Anaconda package which has Python functionality included.
